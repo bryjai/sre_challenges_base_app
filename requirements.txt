@@ -1,0 +1,4 @@
+psycopg2
+wheel
+django
+django-admin
