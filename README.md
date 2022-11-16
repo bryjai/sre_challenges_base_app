@@ -28,6 +28,14 @@ sleep 2
 python manage.py migrate
 ```
 
+## Seeding the database
+
+After the migration the database will be empty, you can run the following command to seed it with one example question:
+
+```shell
+python manage.py seed --mode=refresh
+```
+
 ## Running the App
 
 You can run the App with the following commands:
